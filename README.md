@@ -6,8 +6,8 @@
 | Novelia Yuliartika | 21 |
 
 ## Deskripsi
-25 Oktober 2018
-Daftar Lagu adalah aplikasi androin yang menampilkan sistem informasi data berbagai macam lagu sebagai referensi bagi khalayak luas dalam mencari informasi tentang lagu.
++25 Oktober 2018
+Daftar Lagu adalah aplikasi android yang menampilkan sistem informasi data berbagai macam lagu sebagai referensi bagi khalayak luas dalam mencari informasi tentang lagu. Dan pada aplikasi ini memiliki management daftar lagu yaitu CRUD(create,read,update,delete).
 
 ## Screenshots
 ![Login](https://raw.githubusercontent.com/NoveliaYuliartika/daftarlagu/master/gambar/ScreenShoot%20Login.jpeg "Login")
