@@ -6,7 +6,7 @@
 | Novelia Yuliartika | 21 |
 
 ## Deskripsi
-+25 Oktober 2018
+25 Oktober 2018
 Daftar Lagu adalah aplikasi android yang menampilkan sistem informasi data berbagai macam lagu sebagai referensi bagi khalayak luas dalam mencari informasi tentang lagu. Dan pada aplikasi ini memiliki management daftar lagu yaitu CRUD(create,read,update,delete).
 
 ## Screenshots
