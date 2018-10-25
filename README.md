@@ -47,13 +47,10 @@ Daftar Lagu adalah aplikasi androin yang menampilkan sistem informasi data berba
 + ClickListener.java : sebagai method untuk meng-klik semua button pada aplikasi
 
 ## Referensi
-https://stackoverflow.com
-Modul RecyclerView, SharedPreferences dan SQLite Database
++ https://stackoverflow.com
++ Modul RecyclerView, SharedPreferences dan SQLite Database
 
 ## Licency
 copyright @Kelompok8
 
-
-## Licency
-copyright @Kelompok8
 
