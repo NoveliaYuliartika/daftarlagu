@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/gradient"
+    tools:context="com.fahrossi.www.uts2.MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/blankTop">
+    </View>
+
+    <ImageView
+        android:id="@+id/txv_welcome"
+        android:layout_width="133dp"
+        android:layout_height="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/w"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txv_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txv_welcome"
+        android:text="v1.5.2.Kelompok8.App"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txv_version"
+        android:id="@+id/blankMid">
+
+    </View>
+
+    <TextView
+        android:id="@+id/txv_login_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blankMid"
+        android:text="Masukkan username dan password"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="78dp"
+        android:background="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorWhite"
+            android:id="@+id/txt_username"
+            android:hint="username or email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorWhite"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_password"
+            android:hint="password"/>
+    </LinearLayout>
+
+    <Button
+        android:onClick="button_onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:layout_below="@id/linearLayout"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/btn_login"
+        android:id="@+id/blankBottom">
+    </View>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Ingatlah Ambo"
+        android:id="@+id/chk_remember"
+        android:layout_below="@id/blankBottom"/>
+
+
+</RelativeLayout>
