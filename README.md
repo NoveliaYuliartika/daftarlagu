@@ -38,12 +38,12 @@ Daftar Lagu adalah aplikasi androin yang menampilkan sistem informasi data berba
 + MainActivity.java : berfungsi untuk login dan menjalankan fungsi cek username dan password
 + MyDataHelper.java : berfungsi untuk menyimpan database
 + RecyclerTouchListener.java : berfungsi untuk meng-klik data pada tampilan RecyclerView
-+ RecyclerViewAdapter.java : berfungsi untuk menampilkan data yang ada di dalam database dan ditampilkan di RecyclerView
++ RecyclerViewAdapter.java : berfungsi untuk menjembatani database dengan RecyclerView dan menampung data.
 + UpdateLagu.java : berfungsi untuk mengupdate data
 + ViewLagu.java : Untuk menampilkan data lagu
 + InsertLagu.java : untuk menambahkan data lagu
 + DaftarLagu.java : untuk menampilkan data dalam bentuk RecyclerView.
-+ Lagu.java : untuk menginstansiasi data lagu
++ Lagu.java : untuk menginstansiasi class-class yang dibutuhkan
 + ClickListener.java : sebagai method untuk meng-klik semua button pada aplikasi
 
 ## Referensi
